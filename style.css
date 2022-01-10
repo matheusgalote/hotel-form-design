@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+:root {
+  --font: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+}
+
+.form {
+  background: #f4f4f8;
+  padding: 10px calc((100% - 960px) / 2);
+  font-family: var(--font);
+}
+
+.title {
+  text-align: center;
+  color: #0e054d;
+  font-size: 2.5rem;
+  margin: 40px;
+}
+
+.container {
+  background: #fff;
+  width: 960px;
+  height: 600px;
+  border-radius: 5%;
+}
+
+.circle {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f44c57;
+  left: 275px;
+}
+
+/* Contact */
+.contact {
+  background: #472ecd;
+  width: 380px;
+  height: 600px;
+  border-radius: 5%;
+}
+
+.contact h2 {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.contact p {
+  text-align: center;
+  color: #e5e5e5;
+  font-size: 0.975rem;
+  margin-bottom: 50px;
+}
+
+.contact li {
+  margin-bottom: 20px;
+}
+
+.contact li a {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.contact img {
+  position: relative;
+  top: 7px;
+}
+
+/* Acerta o posicionamento do span em relação a imagem */
+.contact span {
+  display: flex;
+  position: relative;
+  bottom: 20px;
+  margin-left: 40px;
+}
+
+/* redes */
+.redes-sociais {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais img {
+  margin-right: 50px;
+}
