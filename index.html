@@ -11,12 +11,6 @@
   <section class="form">
     <h1 class="title">Faça sua Reserva</h1>
     <div class="container">
-      <div class="form-fields">
-        <form action="">
-
-        </form>
-      </div>
-
       <div class="contact">
         <h2>Informações de Contato</h2>
         <p>Preencha os campos do formulário e entraremos em contato em até 24 horas confirmando sua reserva.</p>
@@ -52,9 +46,49 @@
           </li>
         </ul>
         <span class="circle"></span>
-
+      </div>
+      <div class="form-fields">
+        <form action="#">
+          <div class="row">
+            <div class="col">
+              <label for="name">Nome</label>
+              <input type="text" id="name">
+            </div>
+            <div class="col">
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" id="sobrenome">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="email">Email</label>
+              <input type="text" id="email">
+            </div>
+            <div>
+              <label for="phone">Telefone</label>
+              <input type="text" id="telefone">
+            </div>
+          </div>
+          <div class="accommodations">
+            <p>Qual tipo de acomodação deseja reservar?</p>
+            <div class="rooms">
+              <label for="solteiro">Solteiro</label>
+              <input type="radio" id="solteiro" name="acomodacao" value="solteiro" checked>
+              <label for="casal">Casal</label>
+              <input type="radio" id="casal" name="acomodacao" value="casal">
+              <label for="triplo">Triplo</label>
+              <input type="radio" id="triplo" name="acomodacao" value="triplo">
+            </div>
+          </div>
+          <div class="message">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="50" rows="2" placeholder="Escreva sua mensagem"></textarea>
+          </div>
+        </form>
       </div>
     </div>
   </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
