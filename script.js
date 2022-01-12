@@ -9,8 +9,6 @@ function changeColorInputOnClick() {
     } else {
       label.classList.add('on');
     }
-
-    console.log(label)
   }
 
   inputs.forEach(input => {

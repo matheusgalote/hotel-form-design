@@ -35,8 +35,11 @@ input {
   border-top: none;
   border-left: none;
   border-right: none;
+  outline: 0;
 }
-
+input:focus {
+  border-color: #0e054d;
+}
 .form {
   background: #f4f4f8;
   padding: 10px calc((100% - 960px) / 2);
